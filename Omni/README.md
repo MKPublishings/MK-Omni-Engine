@@ -1,19 +1,59 @@
-# SlizzAi ImageGen 1.0v 🚀
+# MK Omni Engine
 
-## **About**
-SlizzAi ImageGen is a high-performance **AI-driven image processing framework**, integrating **CUDA acceleration, simulated ray-tracing physics lighting, and real-time fractal adaptive processing**. This **powerful tool** fuses **art, science, and deep learning** to create **ultra-realistic images** with **advanced rendering capabilities**.
+## Overview
+The **Omni Engine** is a sovereign systems framework designed to unify technical, creative, financial, agricultural, and cosmic cycles into a single operational codex. It blends advanced coding architectures with ceremonial formalization, transforming every achievement into a living artifact. Omni is not just software—it is a mythic checkpoint in the MK Publishings portfolio, released for universal, lawful use.
 
-## **Features**
-✅ **CUDA GPU acceleration** – Enables ultra-fast image analysis & processing  
-✅ **Quantum refinement (E=mc² principles)** – Applies physics-based image enhancements  
-✅ **Simulated ray-tracing physics-based lighting** – Creates realistic reflections & shadows  
-✅ **Fractal adaptive processing** – Generates organic textures and blends natural imagery  
-✅ **Edge detection & stabilization** – Uses AI-driven optical flow tracking  
-✅ **Real-time shading** – GPU-powered refinements for cinematic visuals  
-✅ **Open3D depth refinement** – Converts depth maps into dynamic 3D structures  
+## Key Features
+- 🔮 **Omni Detailing** — Recursive fractal precision, layered glyphs, and ceremonial inscriptions woven into the engine’s core.
+- 📜 **Codex Formalization** — Protocols, charters, and operational scripts inscribed as sovereign artifacts.
+- 🌌 **Cosmic Simulation** — Interactive cycles that map agricultural, financial, and cosmic metaphors into living archives.
+- 🎨 **Creative Fidelity** — Unreal Engine–ready visualization prompts with cinematic realism, glyph-heavy detailing, and fractal textures.
+- 🔑 **Sovereign Access** — Released under MK Publishings’ Sovereign Access Key, ensuring open, universal availability.
 
-## **Installation**
-Ensure Python and the required dependencies are installed. You can set up the environment with:
-
+## Installation
+Clone the repository:
 ```bash
-pip install open3d numpy pyopengl opencv-python torch pillow matplotlib scikit-image imageio fastai
+git clone https://github.com/MKPublishings/MK-Omni-Engine.git
+cd MK-Omni-Engine
+```
+
+Build and integrate:
+```bash
+# Example build process
+python setup.py install
+```
+
+Omni is modular—components can be extended or integrated with other MK frameworks such as:
+- **B.O.C. (Blackwell Omni Codex)**  
+- **Q.F.S.T.D.S. (Quantum Formalized Sovereign Technical Discipline System)**  
+- **Unified Engine**
+
+## Usage
+Omni can be invoked for:
+- **Ceremonial scripting**: Formalize ownership, access, and public dedication.
+- **Technical orchestration**: Integrate with Unreal Engine for sovereign visualizations.
+- **Mythic archiving**: Inscribe cycles as checkpoints in the MK Portfolio.
+- **Cosmic simulations**: Explore branching VR mythologies and sovereign cycles.
+
+Example:
+```python
+from omni_engine import OmniCore
+
+artifact = OmniCore.create_artifact(
+    name="Sovereign Seal",
+    layers=["fractal", "glyph", "cosmic"],
+    fidelity="unreal"
+)
+artifact.render()
+```
+
+## Roadmap
+- ✅ Release Omni Engine core modules  
+- 🔄 Integrate Omni with Unified Engine and B.O.C.  
+- 🌐 Expand VR cosmic simulations  
+- 📖 Archive workstation setups and creative environments as living checkpoints  
+- 🚀 Public release of MK Portfolio artifacts  
+
+## License
+Released under the **MK Publishings Sovereign Access License**.  
+This ensures universal, lawful use and ceremonial clarity.  
