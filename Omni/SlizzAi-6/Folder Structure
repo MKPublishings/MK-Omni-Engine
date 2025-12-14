@@ -1,0 +1,20 @@
+slizzaiengine/
+├── core/                   # SlizzAi-6 model code and modules
+│   ├── __init__.py
+│   ├── encoder.py
+│   ├── decoder.py
+│   └── utils.py
+├── configs/                # Hyperparameters, model checkpoints, env vars
+│   ├── default.yaml
+│   └── production.yaml
+├── scripts/                # Helper scripts (training, data prep, benchmarks)
+│   ├── train.py
+│   └── evaluate.py
+├── docker/                 # Docker assets for container packaging
+│   ├── Dockerfile
+│   └── entrypoint.sh
+├── tests/                  # Unit and integration tests
+│   └── test_engine.py
+├── setup.py                # Python packaging manifest
+├── README.md
+└── requirements.txt

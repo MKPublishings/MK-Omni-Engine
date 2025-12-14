@@ -1,0 +1,10 @@
+torch==2.1.0
+numpy>=1.24.0
+pyyaml
+flask               # for inference API
+gunicorn            # for production serving
+opencv-python       # for image processing
+tqdm                # for progress bar
+requests            # for HTTP requests
+Pillow              # for image handling
+transformers>=4.0.0 # for pre-trained models
