@@ -1,0 +1,7 @@
+# model_registry.yaml
+vision:
+  version: v1.2.0
+  path: models/vision_v1.2.0.pt
+nlp:
+  version: v2.0.1
+  path: models/nlp_v2.0.1.pt

@@ -1,0 +1,86 @@
+from fastapi import FastAPI, Request
+from engines import run_nlp, run_vision, run_logic  # Your engine functions
+from task_classifier import classify
+
+app = FastAPI()
+
+@app.post("/slizzai")
+async def slizzai_router(request: Request):
+    data = await request.json()
+    task_type = classify(data["input"])
+    
+    if task_type == "nlp":
+        result = run_nlp(data["input"])
+    elif task_type == "vision":
+        result = run_vision(data["input"])
+    elif task_type == "logic":
+        result = run_logic(data["input"])
+    else:
+        result = {"error": "Unknown task type"}
+    
+    return {"result": result}
+
+# engines/generation.py
+class GenerationEngine:
+    def run(self, input_data):
+        prompt = input_data.replace("generate:", "").strip()
+        return {"output": f"Generated content for: {prompt}"}
+# engines/logic.py
+class LogicEngine:
+    def run(self, input_data):
+        # Placeholder logic processing
+        return {"output": f"Logic processed: {input_data}"}
+# engines/nlp.py
+class NLPEngine:
+    def run(self, input_data):
+        # Placeholder NLP processing
+        return {"output": f"NLP processed: {input_data}"}
+# engines/retrieval.py
+class RetrievalEngine:
+    def run(self, input_data):
+        # Placeholder retrieval processing
+        return {"output": f"Retrieved info for: {input_data}"}
+# engines/speech.py
+class SpeechEngine:
+    def run(self, input_data):
+        # Placeholder speech processing
+        return {"output": f"Transcribed speech: {input_data}"}
+# engines/vision.py
+class VisionEngine:
+    def run(self, input_data):
+        # Placeholder vision processing
+        return {"output": f"Image processed: {len(input_data)} bytes"}
+# task_classifier.py
+def classify(input_data):
+    if isinstance(input_data, bytes):
+        return "vision"
+    elif input_data.startswith("speak:"):
+        return "speech"
+    elif input_data.startswith("generate:"):
+        return "generation"
+    elif input_data.startswith("retrieve:"):
+        return "retrieval"
+    elif input_data.startswith("logic:"):
+        return "logic"
+    else:
+        return "nlp"
+# main.py
+from fastapi import FastAPI, Request
+from slizzai_unified import UnifiedAI
+import uvicorn
+app = FastAPI()
+ai_system = UnifiedAI()
+
+
+@app.post("/slizzai")
+async def slizzai_endpoint(request: Request):
+    data = await request.json()
+    input_data = data.get("input")
+    if not input_data:
+        return {"error": "No input data provided"}
+    
+    result = ai_system.run(input_data)
+    return {"result": result}
+if __name__ == "__main__":
+    uvicorn.run(app, host="0.0.0.0", port=8000)  # slizzai_unified.py
+    # slizzai_unified.py

@@ -1,0 +1,10 @@
+# config.yaml
+vision:
+  model: resnet50
+  threshold: 0.8
+nlp:
+  model: slizzai-6
+  temperature: 0.7
+speech:
+  model: whisper
+  language: en

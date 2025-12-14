@@ -1,0 +1,11 @@
+server {
+    listen 443 ssl;
+    server_name slizzai.ai;
+
+    ssl_certificate /etc/ssl/certs/slizzai.crt;
+    ssl_certificate_key /etc/ssl/private/slizzai.key;
+
+    location / {
+        proxy_pass http://localhost:8000;
+    }
+}

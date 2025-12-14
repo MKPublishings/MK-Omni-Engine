@@ -1,0 +1,63 @@
+# Core Framework
+fastapi==0.110.0
+uvicorn[standard]==0.29.0
+pydantic==2.6.4
+python-multipart==0.0.9
+
+# Data Handling
+pandas==2.2.1
+numpy==1.26.4
+scikit-learn==1.4.2
+joblib==1.4.0
+
+# Model Orchestration
+transformers==4.39.3
+torch==2.2.2
+tensorflow==2.16.1
+onnxruntime==1.17.1
+
+# Caching & Rate Limiting
+redis==5.0.3
+aiohttp==3.9.3
+slowapi==0.1.5
+
+# Logging & Monitoring
+loguru==0.7.2
+prometheus-client==0.20.0
+
+# YAML & Config
+pyyaml==6.0.1
+
+# Image & CV Support
+opencv-python==4.9.0.80
+Pillow==10.2.0
+
+# Time-Series & Signal Processing
+tslearn==0.6.3
+scipy==1.13.0
+
+# Dev & Testing
+pytest==8.1.1
+httpx==0.27.0
+black==24.3.0
+isort==5.13.2
+
+# Optional: Mermaid Parsing & Ritual Docs
+markdown==3.6
+mistune==3.0.2
+mermaid-render==0.1.0  # if custom renderer is used
+
+# Security & Gateway
+python-jose==3.3.0
+passlib[bcrypt]==1.7.4
+
+# Deployment & Docker
+gunicorn==21.2.0
+docker==7.0.0
+
+# Additional Libraries
+fastapi
+uvicorn[standard]
+transformers
+torch
+pydantic
