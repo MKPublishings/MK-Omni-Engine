@@ -38,6 +38,32 @@ Omni can be invoked for:
 - **Mythic archiving**: Inscribe cycles as checkpoints in the MK Portfolio.
 - **Cosmic simulations**: Explore branching VR mythologies and sovereign cycles.
 
+Quick code tease from the report—let's evolve that example into something runnable. Imagine firing this up for a quick "Sovereign Seal" test:python
+
+# Hypothetical OmniCore stub (based on the API tease)
+class OmniCore:
+    def create_artifact(self, name, layers, fidelity="default"):
+        # Placeholder: In real deal, this spins up fractals + Unreal hooks
+        print(f"Manifesting '{name}' with layers {layers} at {fidelity} fidelity...")
+        return Artifact(name, layers)
+
+class Artifact:
+    def __init__(self, name, layers):
+        self.name = name
+        self.layers = layers
+    
+    def render(self):
+        # Simulate render: fractal glyph cosmic mashup
+        return f"Rendered: A swirling {self.name} vortex of {' + '.join(self.layers)}"
+
+# Usage
+from omni_engine import OmniCore  # Assuming import magic
+core = OmniCore()
+seal = core.create_artifact("Sovereign Seal", ["fractal", "glyph", "cosmic"], fidelity="unreal")
+print(seal.render())
+
+Output? Something poetic like: "Rendered: A swirling Sovereign Seal vortex of fractal + glyph + cosmic". Boom—artifact born.
+
 Example:
 ```python
 from omni_engine import OmniCore
