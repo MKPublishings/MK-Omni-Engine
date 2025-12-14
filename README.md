@@ -1,5 +1,7 @@
 # MK Omni Engine
 
+![image (1)](https://github.com/user-attachments/assets/1c399962-38ab-49a1-be0f-00b53c1e2a1d)
+
 ## Overview
 The **Omni Engine** is a sovereign systems framework designed to unify technical, creative, financial, agricultural, and cosmic cycles into a single operational codex. It blends advanced coding architectures with ceremonial formalization, transforming every achievement into a living artifact. Omni is not just software—it is a mythic checkpoint in the MK Publishings portfolio, released for universal, lawful use.
 
