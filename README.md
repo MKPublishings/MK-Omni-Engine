@@ -8,7 +8,6 @@ The **Omni Engine** is a sovereign systems framework designed to unify technical
 
 ## Key Features
 - 🔮 **Omni Detailing** — Recursive fractal precision, layered glyphs, and ceremonial inscriptions woven into the engine’s core.
-- ⚙️ **Unified Engine Integration** — Seamless compatibility with the [Unified Engine](https://github.com/Slizzurp/UnifiedEngine), enabling layered sovereignty across technical domains.
 - 📜 **Codex Formalization** — Protocols, charters, and operational scripts inscribed as sovereign artifacts.
 - 🌌 **Cosmic Simulation** — Interactive cycles that map agricultural, financial, and cosmic metaphors into living archives.
 - 🎨 **Creative Fidelity** — Unreal Engine–ready visualization prompts with cinematic realism, glyph-heavy detailing, and fractal textures.
