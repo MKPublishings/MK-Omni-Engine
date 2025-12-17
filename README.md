@@ -27,6 +27,38 @@ Omni Engine is a next‑generation coding framework designed to unify diverse pr
 
 ---
 
+MK-Omni-Engine Workspace Update
+
+Current Setup
+
+Python FastAPI Service: Configured with a trimmed requirements.txt including only FastAPI, Uvicorn, and logging libraries.
+
+Node.js Express Bridge: Built alongside the FastAPI service.
+
+Dockerfiles: Created for both services.
+
+docker-compose.yml: Added to orchestrate services, mounting local code for hot-reload during development.
+
+Ports: Python API runs on port 8000, Node.js bridge on port 3000.
+
+Uvicorn: Serves the slizzai_extension app.
+
+Public Accessibility
+
+Cloudflare Tunnel: Configured with named tunnel MKP-TRI for domain mkptri.org.
+
+Public Hostnames:
+
+api.mkptri.org → routes to localhost:8000
+
+bridge.mkptri.org → routes to localhost:3000
+
+DNS CNAME Records: Added in Cloudflare pointing to the tunnel's connector ID.
+
+Tunnel Operation: Runs in the background using a provided token, exposing services securely over HTTPS without direct port exposure.
+
+---
+
 ## 📂 Omni Directory Overview
 
 The `Omni` folder in **MK-Omni-Engine** is structured as a collection of submodules and prototypes, each contributing to the broader AI framework:
