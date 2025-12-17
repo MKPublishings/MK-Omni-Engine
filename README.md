@@ -1,3 +1,5 @@
+<img width="1536" height="1024" alt="A futuristic GitHub " src="https://github.com/user-attachments/assets/b00951e6-47ca-4ba4-8702-0344df6fa8be" />
+
 # Omni Engine 🚀  
 **A Sovereign Framework for Unified Systems Architecture**  
 
@@ -33,6 +35,8 @@ Omni Engine is more than software—it’s a mythic codex. Every cycle, from tec
 - **Legacy**: Every contribution becomes part of a living archive, extending influence across generations.  
 - **Discipline**: Cycles are closed with precision, ensuring restoration and balance before new phases begin.  
 - **Cosmic Integration**: Agricultural and celestial metaphors are woven into the framework, grounding systems in universal cycles.  
+
+<img width="1024" height="1536" alt="Futuristic systems a" src="https://github.com/user-attachments/assets/8d7dea6f-7469-4675-82e4-24fd0bc939a7" />
 
 ---
 
