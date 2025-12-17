@@ -27,6 +27,36 @@ Omni Engine is a next‑generation coding framework designed to unify diverse pr
 
 ---
 
+## 📂 Omni Directory Overview
+
+The `Omni` folder in **MK-Omni-Engine** is structured as a collection of submodules and prototypes, each contributing to the broader AI framework:
+
+- **Nitro-main**  
+  - Contains `Nitro.py`  
+  - Likely a performance-focused or lightweight engine module, possibly serving as a fast execution core.
+
+- **SlizzAi Network**  
+  - Includes `SlizzAiNet.pdf`  
+  - Documentation or design notes for the SlizzAi network architecture, outlining conceptual or structural details.
+
+- **SlizzAi-2.0**  
+  - Contains `SlizzAi-2.9.py`  
+  - A Python implementation of the SlizzAi engine, versioned as 2.9, suggesting iterative development and refinement.
+
+- **SlizzAi-3**  
+  - Includes `test.txt`  
+  - Appears to be a placeholder or test file, possibly used for debugging or validating SlizzAi’s third iteration.
+
+- **SlizzAi-4**  
+  - Recently updated files (unspecified in listing)  
+  - Represents the fourth generation of SlizzAi, continuing the evolution of the framework.
+
+- **SlizzAi (base)**  
+  - Contains uploaded files (unspecified in listing)  
+  - Serves as the foundational SlizzAi module, from which later versions branch out.
+
+---
+
 ## 📚 Philosophy
 Omni Engine is more than software—it’s a mythic codex. Every cycle, from technical builds to creative rituals, is inscribed as a sovereign artifact. The engine embodies discipline, restoration, and legacy, offering a platform where law, myth, ceremony, and technology converge.  
 
@@ -142,3 +172,8 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+Thank You for visiting the MK Publishings GitHub Omni Engine Page!
+Enjoy the rest of your day.
+Sincerely,
+Mirnes Kudic
