@@ -1,0 +1,28 @@
+version: '3.8'
+
+services:
+  omni-python:
+    build:
+      context: ./Omni
+      dockerfile: Dockerfile
+    container_name: mk_omni_python
+    ports:
+      - "8000:8000"
+    restart: unless-stopped
+    environment:
+      - PYTHONUNBUFFERED=1
+    volumes:
+      - ./Omni:/app:delegated
+    command: uvicorn slizzai_extension:app --host 0.0.0.0 --port 8000 --reload
+
+  js-bridge:
+    build:
+      context: ./js-bridge
+      dockerfile: Dockerfile
+    container_name: mk_js_bridge
+    ports:
+      - "3000:3000"
+    restart: unless-stopped
+    volumes:
+      - ./js-bridge:/usr/src/app:delegated
+    command: npx nodemon index.js

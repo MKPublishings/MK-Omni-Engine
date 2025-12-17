@@ -45,7 +45,7 @@ isort==5.13.2
 # Optional: Mermaid Parsing & Ritual Docs
 markdown==3.6
 mistune==3.0.2
-mermaid-render==0.1.0  # if custom renderer is used
+# mermaid-render==0.1.0  # commented out for Docker build (no PyPI distribution)
 
 # Security & Gateway
 python-jose==3.3.0
